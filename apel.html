@@ -60,14 +60,13 @@
                       <label for="nomor" class="form-label text-white">Nomor Handphone</label>
                       <input class="form-control" id="nomor">
                     </div>
-     
-                    <button type="submit" class="btn btn-primary open-modal" id="myBtn" onclick="openPopup()">Beli</button>
                 </form>
+                <button class="btn btn-primary open-modal" id="myBtn" onclick="showPopup()">Beli</button>
             </div>
         </div>
 
         <!-- pop up -->
-        <div class="popup" id="popup">
+        <div class="popup" style="display: none;">
             <img src="icon/success.png" alt="" class="success p-3">
             <h2>SELAMAT</h2>
             <p style="text-align: center;">Pesanan Anda akan segera kami proses!</p>

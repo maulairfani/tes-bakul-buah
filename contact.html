@@ -59,11 +59,22 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Saya bersedia menerima berita-berita terbaru dari Bakul Buah</label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <button type="submit" class="btn btn-primary" style="background-color: #228c80;" onclick="showPopup()">Submit</button>
   </div>
 
+  <div class="popup" style="display: none;">
+    <h2 class="text-white">Terimakasih saran yang diberikan</h2>
+    <button type="button" class="btn btn-dark close-modal" onclick="closePopup()">OK</button>        
+  </div>
+
+
+
+
+
   
+
+  <script src="script.js"></script>
   <footer class="bg-dark text-white d-flex justify-content-center p-3 fixed-bottom">
     EST. 1990
   </footer>

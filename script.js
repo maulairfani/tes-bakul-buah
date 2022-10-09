@@ -1,12 +1,11 @@
-let modal = document.getElementsByClassName('popup')[0]
-let openModal = document.getElementsByClassName('open-modal')[0]
-let closeModal = document.getElementsByClassName('close-modal')[0]
+let popup = document.getElementsByClassName('popup')[0]
 
+console.log(popup.style)
 
-openModal.addEventListener('click', function () {
-    modal.style.display = 'flex'
-})
+const showPopup = () => {
+    popup.style.display = 'flex'
+}
 
-closeModal.addEventListener('click', function () {
-    modal.style.display = 'none'
-})
+const closePopup = () => {
+    popup.style.display = 'none'
+}
